@@ -1,0 +1,15 @@
+.vscode/**
+.vscode-test/**
+out/**
+src/**
+images/**
+node_modules/**
+.gitignore
+.yarnrc
+**/tsconfig.json
+**/*.map
+**/*.ts
+.github
+.vscodeignore
+package-lock.json
+tsconfig.json

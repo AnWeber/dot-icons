@@ -1,0 +1,61 @@
+{
+  "name": "dot-icons",
+  "version": "1.0.0",
+  "description": "Icons with low key colors",
+  "scripts": {
+    "compile": "ts-node ./src/build.ts",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anweber/dot-icons.git"
+  },
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "theme",
+    "icon-theme",
+    "customization"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "dot",
+        "label": "dot",
+        "path": "dist/dot_config.json"
+      },
+      {
+        "id": "dot_gray_folder",
+        "label": "dot (gray folder)",
+        "path": "dist/dot_gray_folder_config.json"
+      },
+      {
+        "id": "dot_small",
+        "label": "dot (small)",
+        "path": "dist/dot_small_config.json"
+      },
+      {
+        "id": "dot_small_gray_folder",
+        "label": "dot (small, gray folder)",
+        "path": "dist/dot_small_gray_folder_config.json"
+      }
+    ]
+  },
+  "author": "AnWeber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anweber/low-key-icons/issues"
+  },
+  "homepage": "https://github.com/anweber/low-key-icons#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
