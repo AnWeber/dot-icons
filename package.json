@@ -1,8 +1,10 @@
 {
   "name": "dot-icons",
+  "displayName": "dot-icons",
   "version": "0.1.0",
   "description": "Icons with low key colors",
-  "scripts": {
+  "publisher": "anweber",
+    "scripts": {
     "compile": "ts-node ./src/build.ts",
     "prepublish": "npm run compile"
   },
