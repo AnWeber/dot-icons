@@ -6,7 +6,7 @@ import { IconTheme } from './types/iconTheme';
 
 export const dotSmall: IconTheme = {
   id: 'dot_small',
-  name: 'dot (small)',
+  name: 'dot small',
   default: {
     background: '#9E9E9E',
     background2: '#9E9E9E'
@@ -18,8 +18,8 @@ export const dotSmall: IconTheme = {
 };
 
 export const dotSmallGrayscaleFolder: IconTheme = {
-  id: 'dot_small_gray_folder',
-  name: 'dot (small, gray folder)',
+  id: 'dot_small_gray',
+  name: 'dot small (gray)',
   default: {
     background: '#9E9E9E',
     background2: '#9E9E9E'

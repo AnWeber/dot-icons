@@ -18,8 +18,8 @@ export const dot: IconTheme = {
 };
 
 export const dotGrayscaleFolder: IconTheme = {
-  id: 'dot_gray_folder',
-  name: 'dot (gray folder)',
+  id: 'dot_gray',
+  name: 'dot (gray)',
   default: {
     background: '#9E9E9E',
     background2: '#9E9E9E'

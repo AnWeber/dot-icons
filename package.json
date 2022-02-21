@@ -31,19 +31,19 @@
         "path": "dist/dot_config.json"
       },
       {
-        "id": "dot_gray_folder",
-        "label": "dot (gray folder)",
-        "path": "dist/dot_gray_folder_config.json"
+        "id": "dot_gray",
+        "label": "dot (gray)",
+        "path": "dist/dot_gray_config.json"
       },
       {
         "id": "dot_small",
-        "label": "dot (small)",
+        "label": "dot small",
         "path": "dist/dot_small_config.json"
       },
       {
-        "id": "dot_small_gray_folder",
-        "label": "dot (small, gray folder)",
-        "path": "dist/dot_small_gray_folder_config.json"
+        "id": "dot_small_gray",
+        "label": "dot small (gray)",
+        "path": "dist/dot_small_gray_config.json"
       }
     ]
   },
