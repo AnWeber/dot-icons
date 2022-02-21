@@ -3,8 +3,6 @@ import { FileIcon, FolderIcon } from './types';
 export function toGrayFolders(objs: Array<FolderIcon>): Array<FolderIcon> {
   return objs.map(obj => ({
     ...obj,
-    fileName: 'folder',
-    expandedFilename: 'folder_open',
     dark: Object.assign({}, obj.dark, {
       background: '#BDBDBD',
       background2: '#9E9E9E'
