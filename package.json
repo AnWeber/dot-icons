@@ -13,7 +13,7 @@
   "engines": {
     "vscode": "^1.5.0"
   },
-  "icon": "icon.png",
+  "icon": "https://github.com/AnWeber/dot-icons/raw/main/icon.png",
   "categories": [
     "Themes"
   ],
