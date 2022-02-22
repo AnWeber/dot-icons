@@ -40,3 +40,7 @@ Icon Theme using small colored dots for gray folder and icons
 <p align="center">
 <img src="https://github.com/AnWeber/dot-icons/raw/main/assets/dot_small_gray.png" alt="dot-icons" />
 </p>
+
+
+## License
+[MIT License](LICENSE)
