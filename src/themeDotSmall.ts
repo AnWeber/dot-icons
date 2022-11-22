@@ -12,7 +12,26 @@ export const dotSmall: IconTheme = {
     background2: '#9E9E9E'
   },
   icons: [
-    ...folders,
+    ...toSmallDot(folders),
+    ...toSmallDot(files),
+  ]
+};
+
+
+export const dotSmallRoot: IconTheme = {
+  id: 'dot_small_root',
+  name: 'dot small (Colored Root)',
+  default: {
+    background: '#9E9E9E',
+    background2: '#9E9E9E'
+  },
+  icons: [
+    ...toSmallDot(folders.map((obj) => ({
+      ...obj,
+      fileName: obj.name === "root" ? "folder_colored" : obj.fileName,
+      expandedFilename:
+        obj.name === "root" ? "folder_open_colored" : obj.expandedFilename,
+    }))),
     ...toSmallDot(files),
   ]
 };
@@ -25,7 +44,7 @@ export const dotSmallGrayscaleFolder: IconTheme = {
     background2: '#9E9E9E'
   },
   icons: [
-    ...toGrayFolders(folders),
+    ...toSmallDot(toGrayFolders(folders)),
     ...toSmallDot(files),
   ]
 };

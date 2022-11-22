@@ -1,3 +1,9 @@
+## 0.4.0 (2022-11-22)
+
+#### Feature
+
+- new icon packs (dot_colored_root, dot_colored, dot_colored_gray, dot_small_root)
+
 ## 0.3.0 (2022-02-22)
 
 #### Fix

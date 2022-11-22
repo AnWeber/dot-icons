@@ -1,6 +1,7 @@
 
-import { dot, dotGrayscaleFolder } from './themeDot';
-import { dotSmall, dotSmallGrayscaleFolder } from './themeDotSmall';
+import { dot, dotRoot, dotGrayscaleFolder } from './themeDot';
+import { dotSmall, dotSmallRoot, dotSmallGrayscaleFolder } from './themeDotSmall';
+import { dotColored, dotColoredGrayscaleFolder } from './themeDotColored';
 import { IconRootConfig, IconConfig, IconDefinition, VSCodeIconTheme } from './types/vscode';
 import { IconTheme, FileIcon, IconColor, FolderIcon } from './types/iconTheme';
 import { promises as fs } from 'fs';
@@ -11,9 +12,13 @@ async function generateAll() {
   await initFolders();
   const iconThemes: Array<IconTheme> = [
     dot,
+    dotRoot,
     dotGrayscaleFolder,
     dotSmall,
+    dotSmallRoot,
     dotSmallGrayscaleFolder,
+    dotColored,
+    dotColoredGrayscaleFolder
   ];
 
   const contributes: {iconThemes: Array<VSCodeIconTheme>} = {

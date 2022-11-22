@@ -1,10 +1,11 @@
 {
   "name": "dot-icons",
   "displayName": "dot-icons",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Icons with a dot",
   "publisher": "anweber",
   "scripts": {
+    "start": "npm run compile",
     "compile": "ts-node ./src/build.ts",
     "prepublish": "npm run compile"
   },
@@ -33,6 +34,11 @@
         "path": "dist/dot_config.json"
       },
       {
+        "id": "dot_colored_root",
+        "label": "dot (Colored Root)",
+        "path": "dist/dot_colored_root_config.json"
+      },
+      {
         "id": "dot_gray",
         "label": "dot (gray)",
         "path": "dist/dot_gray_config.json"
@@ -43,9 +49,24 @@
         "path": "dist/dot_small_config.json"
       },
       {
+        "id": "dot_small_root",
+        "label": "dot small (Colored Root)",
+        "path": "dist/dot_small_root_config.json"
+      },
+      {
         "id": "dot_small_gray",
         "label": "dot small (gray)",
         "path": "dist/dot_small_gray_config.json"
+      },
+      {
+        "id": "dot_colored",
+        "label": "dot colored",
+        "path": "dist/dot_colored_config.json"
+      },
+      {
+        "id": "dot_colored_gray",
+        "label": "dot colored (gray)",
+        "path": "dist/dot_colored_gray_config.json"
       }
     ]
   },
@@ -56,8 +77,8 @@
   },
   "homepage": "https://github.com/anweber/dot-icons#readme",
   "devDependencies": {
-    "@types/node": "^17.0.18",
-    "ts-node": "^10.5.0",
-    "typescript": "^4.5.5"
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
   }
 }
