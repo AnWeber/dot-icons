@@ -1,5 +1,5 @@
 import { files, folders } from "./icons";
-import { toGrayFolders } from "./modifier";
+import { modifyToGrayFolders } from "./modifier";
 import { IconTheme } from "./types/iconTheme";
 
 export const dot: IconTheme = {
@@ -37,5 +37,5 @@ export const dotGrayscaleFolder: IconTheme = {
     background: "#9E9E9E",
     background2: "#9E9E9E",
   },
-  icons: [...toGrayFolders(folders), ...files],
+  icons: [...modifyToGrayFolders(folders), ...files],
 };

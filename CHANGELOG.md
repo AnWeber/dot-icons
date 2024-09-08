@@ -1,3 +1,9 @@
+## 0.6.0 (2024-09-08)
+
+#### Feature
+
+- new icons for files (just dots)
+
 ## 0.5.0 (2022-11-22)
 
 #### Feature
